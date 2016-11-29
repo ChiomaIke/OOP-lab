@@ -2,7 +2,7 @@
   'use strict';
   
   var expect = require('expect');
-  var myApp = require('../app/library.js');
+  var app = require('../app/library.js');
 
   describe("Car Class: Create a car, make it drive", function() {
 

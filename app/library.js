@@ -1,6 +1,6 @@
 module.exports = {
 car: function(name, model, category, passengers, color, mileage, year){
-	    
+	    var car = car()
 			this.name = function () { 
 				if (this.name === null) {
 					this.name = 'General';
